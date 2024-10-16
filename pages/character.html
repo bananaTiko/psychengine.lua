@@ -28,32 +28,7 @@
 		<script>init(105, 60);</script>
 		<script>zoomReg();</script>
 
-		<audio controls autoplay loop>
-			<source src="https://github.com/bananaTiko/psychengine.lua/raw/refs/heads/main/assets/tea_time.ogg" type="audio/ogg" />
-			<source src="https://github.com/bananaTiko/psychengine.lua/raw/refs/heads/main/assets/tea_time.mp3" type="audio/mp3" />
-			Audio tag not supported. Here is
-			a <a href="https://github.com/bananaTiko/psychengine.lua/raw/refs/heads/main/assets/tea_time.mp3">link to the audio</a> instead.
-		</audio>
-
-
-		<!-- Header -->
-		<div class="headerbox">
-			<div class="header">
-				<a href="../index.html">
-					<img width="64" src="../assets/icon.ico" alt="Psych Engine Logo" draggable="false">
-					<div class="headertext">Psych Engine - Lua Script API</div>
-				</a>
-			</div>
-		</div>
-
-		<!-- Page Info -->
-		<div class="infobox">
-			<h1>Character Functions</h1>
-			<p><b>Functions to change a Character Group's position and make them dance.</b></p>
-			<hr>
-			<h2 id="characterDance">characterDance</h2>
-			<p class="methodbox">characterDance(<span class="variablemarkup">character</span>:String):Void</p>
-			<p>Makes a character play their idle animation if possible.
+		<audio ref='themeSong' src="https://raw.githubusercontent.com/bananaTiko/psychengine.lua/refs/heads/main/assets/tea_time.mp3" autoPlay loop></audio>s a character play their idle animation if possible.
 			<br>This is different from <a href="spritesheet.html#playAnim">"playAnim"</a> because it cycles through "danceLeft" and "danceRight" automatically for characters.</p>
 			<ul>
 				<li><b><span class="variablemarkup">character</span></b> - "bf", "dad" or "gf".</li>
