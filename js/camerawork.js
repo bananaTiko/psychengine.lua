@@ -6,7 +6,7 @@ var curBeat = 0;
 var zoom = 1;
 const lerp = (x, y, a) => x * (1 - a) + y * a; // credits to trysmudford.com!
 
-var mode = "SCALE"; // customize this to "ZOOM" if you want to use zoom instead of scale
+var mode = "ZOOM"; // customize this to "ZOOM" if you want to use zoom instead of scale
 
 document.body.style.overflowX = "hidden";
 
